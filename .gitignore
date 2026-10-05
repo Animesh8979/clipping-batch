@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables & Secrets (CRITICAL SECURITY)
+.env
+.env.*
+*.env
+yt-credentials*.json
+auth.json
+client_secret*.json
+
+# Browser Sessions & Cookies
+temp-chrome-profile/
+.puppeteer-cache/
+.runtime-cache/
+
+# Large Media, Models & Binaries
+renders/
+downloads/
+assets/broll/
+assets/drive-imports/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.mp3
+*.wav
+*.exe
+yt-dlp.exe
+*.pt
+*.onnx
+yolov8n.pt
+
+# Databases & Runtime State
+*.db
+*.db-shm
+*.db-wal
+.planning/*.db*
+
+# Scratch & Temporary Logs
+scratch/
+spikes/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+tools/gcloud-sdk/
+get-shit-done-repo/
+

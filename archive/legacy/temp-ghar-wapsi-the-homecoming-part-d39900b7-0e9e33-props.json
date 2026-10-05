@@ -1,0 +1,2393 @@
+{
+  "dopaminePlan": [
+    {
+      "frame": 0,
+      "effect": "zoom-snap",
+      "source": "hook",
+      "duration": 6,
+      "intensity": "high"
+    },
+    {
+      "frame": 45,
+      "effect": "glitch",
+      "source": "hook",
+      "duration": 4,
+      "intensity": "high"
+    },
+    {
+      "frame": 60,
+      "effect": "zoom-pulse",
+      "source": "dopamine-engine",
+      "duration": 10,
+      "intensity": "low"
+    },
+    {
+      "frame": 105,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 120,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 126,
+      "effect": "camera-shake",
+      "source": "scene-transition",
+      "duration": 8,
+      "intensity": "medium"
+    },
+    {
+      "frame": 135,
+      "effect": "camera-shake",
+      "source": "dopamine-engine",
+      "duration": 8,
+      "intensity": "medium"
+    },
+    {
+      "frame": 150,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 165,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 180,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 195,
+      "effect": "camera-shake",
+      "source": "dopamine-engine",
+      "duration": 8,
+      "intensity": "medium"
+    },
+    {
+      "frame": 210,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 225,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 240,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 255,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 270,
+      "effect": "saturation-spike",
+      "source": "dopamine-engine",
+      "duration": 8,
+      "intensity": "medium"
+    },
+    {
+      "frame": 285,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 300,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 315,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 320,
+      "effect": "saturation-spike",
+      "source": "scene-transition",
+      "duration": 8,
+      "intensity": "medium"
+    },
+    {
+      "frame": 330,
+      "effect": "saturation-spike",
+      "source": "dopamine-engine",
+      "duration": 8,
+      "intensity": "medium"
+    },
+    {
+      "frame": 345,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 360,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 375,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 390,
+      "effect": "saturation-spike",
+      "source": "dopamine-engine",
+      "duration": 8,
+      "intensity": "medium"
+    },
+    {
+      "frame": 405,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 420,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 435,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 450,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 465,
+      "effect": "rotation-tilt",
+      "source": "dopamine-engine",
+      "duration": 8,
+      "intensity": "low"
+    },
+    {
+      "frame": 480,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 495,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 510,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 525,
+      "effect": "rotation-tilt",
+      "source": "dopamine-engine",
+      "duration": 8,
+      "intensity": "low"
+    },
+    {
+      "frame": 540,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 555,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 570,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 585,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 600,
+      "effect": "zoom-pulse",
+      "source": "dopamine-engine",
+      "duration": 10,
+      "intensity": "low"
+    },
+    {
+      "frame": 610,
+      "effect": "rotation-tilt",
+      "source": "scene-transition",
+      "duration": 8,
+      "intensity": "low"
+    },
+    {
+      "frame": 615,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 630,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 645,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 660,
+      "effect": "zoom-pulse",
+      "source": "dopamine-engine",
+      "duration": 10,
+      "intensity": "low"
+    },
+    {
+      "frame": 675,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 690,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 705,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 720,
+      "effect": "zoom-pulse",
+      "source": "dopamine-engine",
+      "duration": 10,
+      "intensity": "low"
+    },
+    {
+      "frame": 735,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 750,
+      "effect": "snap-zoom-hold",
+      "source": "danger-zone",
+      "duration": 30,
+      "intensity": "high"
+    },
+    {
+      "frame": 765,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    },
+    {
+      "frame": 777,
+      "effect": "color-invert-flash",
+      "source": "danger-zone",
+      "duration": 3,
+      "intensity": "high"
+    },
+    {
+      "frame": 795,
+      "effect": "beat-zoom",
+      "source": "beat-sync",
+      "duration": 4,
+      "intensity": "medium"
+    }
+  ],
+  "scriptText": "शहर की छोटी झोपड़ी ® ‡ ‚ † °à¥¤ \"अब पीछे हटने का कोई रास्ता नहींà¥¤ ­ ' पुरानी दुश्मनी • ¾ ¸ ¾ ¯à¥¤ माँ का पुराना खत • ' š ® •à¥¤ � � � � � � � � �। खट खट की आवाज़ से † °à¥¤ \"आवाज़ मत करो \" ® ' °à¥¤ अगला भाग देखने के लिए जुड़े रहो। à¤…à¤—à¤²à¤¾ à¤­à¤¾à¤— à¤¦à¥‡à¤–à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤œà¥à¤¡à¤¼à¥‡ à¤°à¤¹à¥‹à¥¤",
+  "scenes": [
+    {
+      "index": 0,
+      "storyPart": 1,
+      "sentence": "The moment आरव stepped into city apartment.",
+      "sentenceHindi": "शहर की छोटी झोपड़ी ® ‡ ‚ † °à¥¤",
+      "sentenceEnglish": "The moment आरव stepped into city apartment.",
+      "startFrame": 0,
+      "durationInFrames": 126,
+      "durationWeight": 1.4,
+      "backgroundTheme": "story-dream",
+      "media": {
+        "kind": "video",
+        "src": "v12-cache/scene-01-tier1-pexels.mp4",
+        "remoteUrl": "https://videos.pexels.com/video-files/8293301/8293301-hd_1080_1920_25fps.mp4",
+        "query": "city apartment dramatic entrance",
+        "width": 1080,
+        "height": 1920,
+        "tier": "Tier 1 (Pexels Video)"
+      },
+      "visualBeatIndex": 0,
+      "visualBeatCount": 1
+    },
+    {
+      "index": 1,
+      "storyPart": 1,
+      "sentence": "\"There's no turning back now \" मीरा shouted.",
+      "sentenceHindi": "\"अब पीछे हटने का कोई रास्ता नहींà¥¤",
+      "sentenceEnglish": "\"There's no turning back now \" मीरा shouted.",
+      "startFrame": 126,
+      "durationInFrames": 99,
+      "durationWeight": 1.08,
+      "backgroundTheme": "story-mist",
+      "media": {
+        "kind": "video",
+        "src": "v12-cache/scene-02-tier1-pexels.mp4",
+        "remoteUrl": "https://videos.pexels.com/video-files/35966122/15248360_1080_1920_25fps.mp4",
+        "query": "dramatic turning point determination",
+        "width": 1080,
+        "height": 1920,
+        "tier": "Tier 1 (Pexels Video)"
+      },
+      "visualBeatIndex": 0,
+      "visualBeatCount": 1
+    },
+    {
+      "index": 2,
+      "storyPart": 1,
+      "sentence": "Then the shadow of old rivalry fell upon them.",
+      "sentenceHindi": "­ ' पुरानी दुश्मनी • ¾ ¸ ¾ ¯à¥¤",
+      "sentenceEnglish": "Then the shadow of old rivalry fell upon them.",
+      "startFrame": 225,
+      "durationInFrames": 97,
+      "durationWeight": 1.08,
+      "backgroundTheme": "story-moonlit",
+      "media": {
+        "kind": "video",
+        "src": "v12-cache/scene-03-tier1-pexels.mp4",
+        "remoteUrl": "https://videos.pexels.com/video-files/5973873/5973873-hd_1080_1920_30fps.mp4",
+        "query": "threat looming dramatic confrontation",
+        "width": 1080,
+        "height": 1920,
+        "tier": "Tier 1 (Pexels Video)"
+      },
+      "visualBeatIndex": 0,
+      "visualBeatCount": 1
+    },
+    {
+      "index": 3,
+      "storyPart": 1,
+      "sentence": "The shine of the torn family photo illuminated आरव's.",
+      "sentenceHindi": "माँ का पुराना खत • ' š ® •à¥¤",
+      "sentenceEnglish": "The shine of the torn family photo illuminated आरव's.",
+      "startFrame": 320,
+      "durationInFrames": 100,
+      "durationWeight": 1.08,
+      "backgroundTheme": "story-memory",
+      "media": {
+        "kind": "video",
+        "src": "v12-cache/scene-04-tier1-pexels.mp4",
+        "remoteUrl": "https://videos.pexels.com/video-files/6973260/6973260-hd_1080_1920_24fps.mp4",
+        "query": "object glowing face closeup hero",
+        "width": 1080,
+        "height": 1920,
+        "tier": "Tier 1 (Pexels Video)"
+      },
+      "visualBeatIndex": 0,
+      "visualBeatCount": 1
+    },
+    {
+      "index": 4,
+      "storyPart": 1,
+      "sentence": "But suddenly a massive explosion occurred.",
+      "sentenceHindi": "� � � � � � � � �।",
+      "sentenceEnglish": "But suddenly a massive explosion occurred.",
+      "startFrame": 420,
+      "durationInFrames": 94,
+      "durationWeight": 1.08,
+      "backgroundTheme": "story-dream",
+      "media": {
+        "kind": "video",
+        "src": "v12-cache/scene-05-tier1-pexels.mp4",
+        "remoteUrl": "https://videos.pexels.com/video-files/36917523/15639342_1080_1920_60fps.mp4",
+        "query": "massive cinematic explosion dust",
+        "width": 1080,
+        "height": 1920,
+        "tier": "Tier 1 (Pexels Video)"
+      },
+      "visualBeatIndex": 0,
+      "visualBeatCount": 1
+    },
+    {
+      "index": 5,
+      "storyPart": 1,
+      "sentence": "आरव froze at the hard knocking sound and held.",
+      "sentenceHindi": "खट खट की आवाज़ से † °à¥¤",
+      "sentenceEnglish": "आरव froze at the hard knocking sound and held.",
+      "startFrame": 510,
+      "durationInFrames": 97,
+      "durationWeight": 1.08,
+      "backgroundTheme": "story-mist",
+      "media": {
+        "kind": "video",
+        "src": "v12-cache/scene-06-tier1-pexels.mp4",
+        "remoteUrl": "https://videos.pexels.com/video-files/6657883/6657883-hd_1080_1920_30fps.mp4",
+        "query": "metal door knock closeup",
+        "width": 1080,
+        "height": 1920,
+        "tier": "Tier 1 (Pexels Video)"
+      },
+      "visualBeatIndex": 0,
+      "visualBeatCount": 1
+    },
+    {
+      "index": 6,
+      "storyPart": 1,
+      "sentence": "\"Do not make a sound \" मीरा whispered. Follow now. Part 2 reveals who is hiding the truth.",
+      "sentenceHindi": "\"आवाज़ मत करो \" ® ' °à¥¤ अगला भाग देखने के लिए जुड़े रहो। à¤…à¤—à¤²à¤¾ à¤­à¤¾à¤— à¤¦à¥‡à¤–à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤œà¥à¤¡à¤¼à¥‡ à¤°à¤¹à¥‹à¥¤",
+      "sentenceEnglish": "\"Do not make a sound \" मीरा whispered. Follow now. Part 2 reveals who is hiding the truth.",
+      "startFrame": 610,
+      "durationInFrames": 194,
+      "durationWeight": 1.5,
+      "backgroundTheme": "story-moonlit",
+      "media": {
+        "kind": "video",
+        "src": "v12-cache/scene-07-tier1-pexels.mp4",
+        "remoteUrl": "https://videos.pexels.com/video-files/19436637/19436637-hd_1080_1920_50fps.mp4",
+        "query": "whisper in dark corridor",
+        "width": 1080,
+        "height": 1920,
+        "tier": "Tier 1 (Pexels Video)"
+      },
+      "visualBeatIndex": 0,
+      "visualBeatCount": 1,
+      "sceneId": "hypnotic-loop-undefined"
+    }
+  ],
+  "timestamps": [
+    {
+      "id": 0,
+      "text": "The",
+      "startFrame": 1,
+      "endFrame": 19
+    },
+    {
+      "id": 1,
+      "text": "moment",
+      "startFrame": 19,
+      "endFrame": 37
+    },
+    {
+      "id": 2,
+      "text": "आरव",
+      "startFrame": 37,
+      "endFrame": 55
+    },
+    {
+      "id": 3,
+      "text": "stepped",
+      "startFrame": 55,
+      "endFrame": 73
+    },
+    {
+      "id": 4,
+      "text": "into",
+      "startFrame": 73,
+      "endFrame": 91
+    },
+    {
+      "id": 5,
+      "text": "city",
+      "startFrame": 91,
+      "endFrame": 109
+    },
+    {
+      "id": 6,
+      "text": "apartment.",
+      "startFrame": 109,
+      "endFrame": 127
+    },
+    {
+      "id": 7,
+      "text": "\"There's",
+      "startFrame": 127,
+      "endFrame": 139
+    },
+    {
+      "id": 8,
+      "text": "no",
+      "startFrame": 139,
+      "endFrame": 151
+    },
+    {
+      "id": 9,
+      "text": "turning",
+      "startFrame": 151,
+      "endFrame": 163
+    },
+    {
+      "id": 10,
+      "text": "back",
+      "startFrame": 163,
+      "endFrame": 176
+    },
+    {
+      "id": 11,
+      "text": "now",
+      "startFrame": 176,
+      "endFrame": 188
+    },
+    {
+      "id": 12,
+      "text": "\"",
+      "startFrame": 188,
+      "endFrame": 200
+    },
+    {
+      "id": 13,
+      "text": "मीरा",
+      "startFrame": 200,
+      "endFrame": 212
+    },
+    {
+      "id": 14,
+      "text": "shouted.",
+      "startFrame": 212,
+      "endFrame": 224
+    },
+    {
+      "id": 15,
+      "text": "Then",
+      "startFrame": 224,
+      "endFrame": 235
+    },
+    {
+      "id": 16,
+      "text": "the",
+      "startFrame": 235,
+      "endFrame": 246
+    },
+    {
+      "id": 17,
+      "text": "shadow",
+      "startFrame": 246,
+      "endFrame": 256
+    },
+    {
+      "id": 18,
+      "text": "of",
+      "startFrame": 256,
+      "endFrame": 267
+    },
+    {
+      "id": 19,
+      "text": "old",
+      "startFrame": 267,
+      "endFrame": 278
+    },
+    {
+      "id": 20,
+      "text": "rivalry",
+      "startFrame": 278,
+      "endFrame": 289
+    },
+    {
+      "id": 21,
+      "text": "fell",
+      "startFrame": 289,
+      "endFrame": 299
+    },
+    {
+      "id": 22,
+      "text": "upon",
+      "startFrame": 299,
+      "endFrame": 310
+    },
+    {
+      "id": 23,
+      "text": "them.",
+      "startFrame": 310,
+      "endFrame": 321
+    },
+    {
+      "id": 24,
+      "text": "The",
+      "startFrame": 321,
+      "endFrame": 332
+    },
+    {
+      "id": 25,
+      "text": "shine",
+      "startFrame": 332,
+      "endFrame": 342
+    },
+    {
+      "id": 26,
+      "text": "of",
+      "startFrame": 342,
+      "endFrame": 353
+    },
+    {
+      "id": 27,
+      "text": "the",
+      "startFrame": 353,
+      "endFrame": 364
+    },
+    {
+      "id": 28,
+      "text": "torn",
+      "startFrame": 364,
+      "endFrame": 374
+    },
+    {
+      "id": 29,
+      "text": "family",
+      "startFrame": 374,
+      "endFrame": 385
+    },
+    {
+      "id": 30,
+      "text": "photo",
+      "startFrame": 385,
+      "endFrame": 396
+    },
+    {
+      "id": 31,
+      "text": "illuminated",
+      "startFrame": 396,
+      "endFrame": 406
+    },
+    {
+      "id": 32,
+      "text": "आरव's.",
+      "startFrame": 406,
+      "endFrame": 417
+    },
+    {
+      "id": 33,
+      "text": "But",
+      "startFrame": 417,
+      "endFrame": 433
+    },
+    {
+      "id": 34,
+      "text": "suddenly",
+      "startFrame": 433,
+      "endFrame": 449
+    },
+    {
+      "id": 35,
+      "text": "a",
+      "startFrame": 449,
+      "endFrame": 466
+    },
+    {
+      "id": 36,
+      "text": "massive",
+      "startFrame": 466,
+      "endFrame": 482
+    },
+    {
+      "id": 37,
+      "text": "explosion",
+      "startFrame": 482,
+      "endFrame": 498
+    },
+    {
+      "id": 38,
+      "text": "occurred.",
+      "startFrame": 498,
+      "endFrame": 514
+    },
+    {
+      "id": 39,
+      "text": "आरव",
+      "startFrame": 514,
+      "endFrame": 525
+    },
+    {
+      "id": 40,
+      "text": "froze",
+      "startFrame": 525,
+      "endFrame": 536
+    },
+    {
+      "id": 41,
+      "text": "at",
+      "startFrame": 536,
+      "endFrame": 546
+    },
+    {
+      "id": 42,
+      "text": "the",
+      "startFrame": 546,
+      "endFrame": 557
+    },
+    {
+      "id": 43,
+      "text": "hard",
+      "startFrame": 557,
+      "endFrame": 568
+    },
+    {
+      "id": 44,
+      "text": "knocking",
+      "startFrame": 568,
+      "endFrame": 579
+    },
+    {
+      "id": 45,
+      "text": "sound",
+      "startFrame": 579,
+      "endFrame": 589
+    },
+    {
+      "id": 46,
+      "text": "and",
+      "startFrame": 589,
+      "endFrame": 600
+    },
+    {
+      "id": 47,
+      "text": "held.",
+      "startFrame": 600,
+      "endFrame": 611
+    },
+    {
+      "id": 48,
+      "text": "\"Do",
+      "startFrame": 611,
+      "endFrame": 622
+    },
+    {
+      "id": 49,
+      "text": "not",
+      "startFrame": 622,
+      "endFrame": 633
+    },
+    {
+      "id": 50,
+      "text": "make",
+      "startFrame": 633,
+      "endFrame": 643
+    },
+    {
+      "id": 51,
+      "text": "a",
+      "startFrame": 643,
+      "endFrame": 654
+    },
+    {
+      "id": 52,
+      "text": "sound",
+      "startFrame": 654,
+      "endFrame": 665
+    },
+    {
+      "id": 53,
+      "text": "\"",
+      "startFrame": 665,
+      "endFrame": 676
+    },
+    {
+      "id": 54,
+      "text": "मीरा",
+      "startFrame": 676,
+      "endFrame": 686
+    },
+    {
+      "id": 55,
+      "text": "whispered.",
+      "startFrame": 686,
+      "endFrame": 697
+    },
+    {
+      "id": 56,
+      "text": "Follow",
+      "startFrame": 697,
+      "endFrame": 708
+    },
+    {
+      "id": 57,
+      "text": "now.",
+      "startFrame": 708,
+      "endFrame": 719
+    },
+    {
+      "id": 58,
+      "text": "Part",
+      "startFrame": 719,
+      "endFrame": 730
+    },
+    {
+      "id": 59,
+      "text": "2",
+      "startFrame": 730,
+      "endFrame": 740
+    },
+    {
+      "id": 60,
+      "text": "reveals",
+      "startFrame": 740,
+      "endFrame": 751
+    },
+    {
+      "id": 61,
+      "text": "who",
+      "startFrame": 751,
+      "endFrame": 762
+    },
+    {
+      "id": 62,
+      "text": "is",
+      "startFrame": 762,
+      "endFrame": 773
+    },
+    {
+      "id": 63,
+      "text": "hiding",
+      "startFrame": 773,
+      "endFrame": 783
+    },
+    {
+      "id": 64,
+      "text": "the",
+      "startFrame": 783,
+      "endFrame": 794
+    },
+    {
+      "id": 65,
+      "text": "truth.",
+      "startFrame": 794,
+      "endFrame": 804
+    }
+  ],
+  "captionChunks": [
+    {
+      "id": 0,
+      "startFrame": 1,
+      "endFrame": 37,
+      "words": [
+        {
+          "id": 0,
+          "text": "The",
+          "startFrame": 1,
+          "endFrame": 19
+        },
+        {
+          "id": 1,
+          "text": "moment",
+          "startFrame": 19,
+          "endFrame": 37
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "startFrame": 37,
+      "endFrame": 91,
+      "words": [
+        {
+          "id": 2,
+          "text": "आरव",
+          "startFrame": 37,
+          "endFrame": 55
+        },
+        {
+          "id": 3,
+          "text": "stepped",
+          "startFrame": 55,
+          "endFrame": 73
+        },
+        {
+          "id": 4,
+          "text": "into",
+          "startFrame": 73,
+          "endFrame": 91
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startFrame": 91,
+      "endFrame": 127,
+      "words": [
+        {
+          "id": 5,
+          "text": "city",
+          "startFrame": 91,
+          "endFrame": 109
+        },
+        {
+          "id": 6,
+          "text": "apartment.",
+          "startFrame": 109,
+          "endFrame": 127
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "startFrame": 127,
+      "endFrame": 151,
+      "words": [
+        {
+          "id": 7,
+          "text": "\"There's",
+          "startFrame": 127,
+          "endFrame": 139
+        },
+        {
+          "id": 8,
+          "text": "no",
+          "startFrame": 139,
+          "endFrame": 151
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "startFrame": 151,
+      "endFrame": 176,
+      "words": [
+        {
+          "id": 9,
+          "text": "turning",
+          "startFrame": 151,
+          "endFrame": 163
+        },
+        {
+          "id": 10,
+          "text": "back",
+          "startFrame": 163,
+          "endFrame": 176
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "startFrame": 176,
+      "endFrame": 200,
+      "words": [
+        {
+          "id": 11,
+          "text": "now",
+          "startFrame": 176,
+          "endFrame": 188
+        },
+        {
+          "id": 12,
+          "text": "\"",
+          "startFrame": 188,
+          "endFrame": 200
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "startFrame": 200,
+      "endFrame": 224,
+      "words": [
+        {
+          "id": 13,
+          "text": "मीरा",
+          "startFrame": 200,
+          "endFrame": 212
+        },
+        {
+          "id": 14,
+          "text": "shouted.",
+          "startFrame": 212,
+          "endFrame": 224
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "startFrame": 224,
+      "endFrame": 246,
+      "words": [
+        {
+          "id": 15,
+          "text": "Then",
+          "startFrame": 224,
+          "endFrame": 235
+        },
+        {
+          "id": 16,
+          "text": "the",
+          "startFrame": 235,
+          "endFrame": 246
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "startFrame": 246,
+      "endFrame": 267,
+      "words": [
+        {
+          "id": 17,
+          "text": "shadow",
+          "startFrame": 246,
+          "endFrame": 256
+        },
+        {
+          "id": 18,
+          "text": "of",
+          "startFrame": 256,
+          "endFrame": 267
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "startFrame": 267,
+      "endFrame": 299,
+      "words": [
+        {
+          "id": 19,
+          "text": "old",
+          "startFrame": 267,
+          "endFrame": 278
+        },
+        {
+          "id": 20,
+          "text": "rivalry",
+          "startFrame": 278,
+          "endFrame": 289
+        },
+        {
+          "id": 21,
+          "text": "fell",
+          "startFrame": 289,
+          "endFrame": 299
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "startFrame": 299,
+      "endFrame": 321,
+      "words": [
+        {
+          "id": 22,
+          "text": "upon",
+          "startFrame": 299,
+          "endFrame": 310
+        },
+        {
+          "id": 23,
+          "text": "them.",
+          "startFrame": 310,
+          "endFrame": 321
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "startFrame": 321,
+      "endFrame": 342,
+      "words": [
+        {
+          "id": 24,
+          "text": "The",
+          "startFrame": 321,
+          "endFrame": 332
+        },
+        {
+          "id": 25,
+          "text": "shine",
+          "startFrame": 332,
+          "endFrame": 342
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "startFrame": 342,
+      "endFrame": 364,
+      "words": [
+        {
+          "id": 26,
+          "text": "of",
+          "startFrame": 342,
+          "endFrame": 353
+        },
+        {
+          "id": 27,
+          "text": "the",
+          "startFrame": 353,
+          "endFrame": 364
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "startFrame": 364,
+      "endFrame": 396,
+      "words": [
+        {
+          "id": 28,
+          "text": "torn",
+          "startFrame": 364,
+          "endFrame": 374
+        },
+        {
+          "id": 29,
+          "text": "family",
+          "startFrame": 374,
+          "endFrame": 385
+        },
+        {
+          "id": 30,
+          "text": "photo",
+          "startFrame": 385,
+          "endFrame": 396
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "startFrame": 396,
+      "endFrame": 417,
+      "words": [
+        {
+          "id": 31,
+          "text": "illuminated",
+          "startFrame": 396,
+          "endFrame": 406
+        },
+        {
+          "id": 32,
+          "text": "आरव's.",
+          "startFrame": 406,
+          "endFrame": 417
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "startFrame": 417,
+      "endFrame": 449,
+      "words": [
+        {
+          "id": 33,
+          "text": "But",
+          "startFrame": 417,
+          "endFrame": 433
+        },
+        {
+          "id": 34,
+          "text": "suddenly",
+          "startFrame": 433,
+          "endFrame": 449
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "startFrame": 449,
+      "endFrame": 482,
+      "words": [
+        {
+          "id": 35,
+          "text": "a",
+          "startFrame": 449,
+          "endFrame": 466
+        },
+        {
+          "id": 36,
+          "text": "massive",
+          "startFrame": 466,
+          "endFrame": 482
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "startFrame": 482,
+      "endFrame": 514,
+      "words": [
+        {
+          "id": 37,
+          "text": "explosion",
+          "startFrame": 482,
+          "endFrame": 498
+        },
+        {
+          "id": 38,
+          "text": "occurred.",
+          "startFrame": 498,
+          "endFrame": 514
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "startFrame": 514,
+      "endFrame": 536,
+      "words": [
+        {
+          "id": 39,
+          "text": "आरव",
+          "startFrame": 514,
+          "endFrame": 525
+        },
+        {
+          "id": 40,
+          "text": "froze",
+          "startFrame": 525,
+          "endFrame": 536
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "startFrame": 536,
+      "endFrame": 557,
+      "words": [
+        {
+          "id": 41,
+          "text": "at",
+          "startFrame": 536,
+          "endFrame": 546
+        },
+        {
+          "id": 42,
+          "text": "the",
+          "startFrame": 546,
+          "endFrame": 557
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "startFrame": 557,
+      "endFrame": 589,
+      "words": [
+        {
+          "id": 43,
+          "text": "hard",
+          "startFrame": 557,
+          "endFrame": 568
+        },
+        {
+          "id": 44,
+          "text": "knocking",
+          "startFrame": 568,
+          "endFrame": 579
+        },
+        {
+          "id": 45,
+          "text": "sound",
+          "startFrame": 579,
+          "endFrame": 589
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "startFrame": 589,
+      "endFrame": 611,
+      "words": [
+        {
+          "id": 46,
+          "text": "and",
+          "startFrame": 589,
+          "endFrame": 600
+        },
+        {
+          "id": 47,
+          "text": "held.",
+          "startFrame": 600,
+          "endFrame": 611
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "startFrame": 611,
+      "endFrame": 633,
+      "words": [
+        {
+          "id": 48,
+          "text": "\"Do",
+          "startFrame": 611,
+          "endFrame": 622
+        },
+        {
+          "id": 49,
+          "text": "not",
+          "startFrame": 622,
+          "endFrame": 633
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "startFrame": 633,
+      "endFrame": 654,
+      "words": [
+        {
+          "id": 50,
+          "text": "make",
+          "startFrame": 633,
+          "endFrame": 643
+        },
+        {
+          "id": 51,
+          "text": "a",
+          "startFrame": 643,
+          "endFrame": 654
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "startFrame": 654,
+      "endFrame": 676,
+      "words": [
+        {
+          "id": 52,
+          "text": "sound",
+          "startFrame": 654,
+          "endFrame": 665
+        },
+        {
+          "id": 53,
+          "text": "\"",
+          "startFrame": 665,
+          "endFrame": 676
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "startFrame": 676,
+      "endFrame": 697,
+      "words": [
+        {
+          "id": 54,
+          "text": "मीरा",
+          "startFrame": 676,
+          "endFrame": 686
+        },
+        {
+          "id": 55,
+          "text": "whispered.",
+          "startFrame": 686,
+          "endFrame": 697
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "startFrame": 697,
+      "endFrame": 719,
+      "words": [
+        {
+          "id": 56,
+          "text": "Follow",
+          "startFrame": 697,
+          "endFrame": 708
+        },
+        {
+          "id": 57,
+          "text": "now.",
+          "startFrame": 708,
+          "endFrame": 719
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "startFrame": 719,
+      "endFrame": 740,
+      "words": [
+        {
+          "id": 58,
+          "text": "Part",
+          "startFrame": 719,
+          "endFrame": 730
+        },
+        {
+          "id": 59,
+          "text": "2",
+          "startFrame": 730,
+          "endFrame": 740
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "startFrame": 740,
+      "endFrame": 762,
+      "words": [
+        {
+          "id": 60,
+          "text": "reveals",
+          "startFrame": 740,
+          "endFrame": 751
+        },
+        {
+          "id": 61,
+          "text": "who",
+          "startFrame": 751,
+          "endFrame": 762
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "startFrame": 762,
+      "endFrame": 783,
+      "words": [
+        {
+          "id": 62,
+          "text": "is",
+          "startFrame": 762,
+          "endFrame": 773
+        },
+        {
+          "id": 63,
+          "text": "hiding",
+          "startFrame": 773,
+          "endFrame": 783
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "startFrame": 783,
+      "endFrame": 804,
+      "words": [
+        {
+          "id": 64,
+          "text": "the",
+          "startFrame": 783,
+          "endFrame": 794
+        },
+        {
+          "id": 65,
+          "text": "truth.",
+          "startFrame": 794,
+          "endFrame": 804
+        }
+      ]
+    }
+  ],
+  "mixedAudioFile": "ghar-wapsi-the-homecoming-part-d39900b7-0e9e33-mix-master.wav",
+  "voiceoverFile": "ghar-wapsi-the-homecoming-part-d39900b7-0e9e33-voice-master.wav",
+  "hasBGM": true,
+  "audioMixMode": "ducked_master_mix",
+  "qualityReport": {
+    "topic": "Ghar Wapsi - The Homecoming (Part 1)",
+    "generatedAt": "2026-05-31T19:45:01.721Z",
+    "uploadReadiness": "review",
+    "reviewReasons": [
+      "ASR voice verification was unavailable for the rendered narration."
+    ],
+    "advisories": [
+      "Operator help needed: Start the local ComfyUI stack before the next batch so story frames and avatar-quality visuals can recover.",
+      "Operator help needed: Restore Hugging Face credits or swap to a funded FLUX-compatible provider before the next story batch."
+    ],
+    "transcriptChecks": {
+      "asrModel": null,
+      "scriptWordCount": 71,
+      "asrWordCount": 0,
+      "captionWordCount": 66,
+      "scriptToAsrMatch": 0,
+      "scriptToCaptionMatch": 0.97,
+      "asrCoverage": "standard"
+    },
+    "captionTimeline": {
+      "totalChunks": 31,
+      "coverageRatio": 0.999,
+      "maxGapFrames": 1,
+      "largeGapCount": 0
+    },
+    "audio": {
+      "voiceSource": "edge-tts:hi-IN-MadhurNeural [owned-story-calm-v2]",
+      "finalAudioFile": "ghar-wapsi-the-homecoming-part-d39900b7-0e9e33-mix-master.wav",
+      "bgmMode": "ducked_master_mix",
+      "hasBGM": true,
+      "bgmTrack": "Real music: haunted-whisper-03 (story_suspense)",
+      "copyrightSafe": true,
+      "narratorProfile": "owned-story-calm-v2",
+      "voiceLevels": {
+        "meanVolumeDb": -14.7,
+        "maxVolumeDb": -0.9
+      },
+      "bgmLevels": {
+        "meanVolumeDb": -17.1,
+        "maxVolumeDb": -9.4
+      },
+      "mixLevels": {
+        "meanVolumeDb": -16.1,
+        "maxVolumeDb": -1.1
+      },
+      "estimatedBgmMeanDb": -24,
+      "bgmToVoiceDeltaDb": 9.3,
+      "bgmLikelyAudible": true,
+      "bgmNeedsManualReview": false
+    },
+    "retentionSignals": {
+      "hasPowerText": true,
+      "powerText": "NEXT SCENE",
+      "patternInterruptCount": 15,
+      "visualCueCount": 7,
+      "sceneCount": 7,
+      "renderSceneCount": 7,
+      "visualCueCoverageRatio": 1,
+      "characterLock": "South Asian man, mid 30s, short messy hair, wearing a dark hoodie, blockbuster movie protagonist avatar, dramatic cinematic rim light",
+      "characterLockFallback": false
+    },
+    "contentProfile": {
+      "isStory": true,
+      "isNews": false,
+      "editorialFirst": false,
+      "musicMood": "story_calm"
+    },
+    "hookPackage": {
+      "accent": "story",
+      "badge": "PART 1 OF 3",
+      "headline": "आरव stepped into city apartment",
+      "subline": "The clue that should have stayed buried.",
+      "showUntilFrame": 42,
+      "persistentBadge": "HINDI STORY",
+      "showSourceChip": false,
+      "closingCtaText": "Follow now. Part 2 reveals who is hiding the truth.",
+      "loopBadge": "PART 1",
+      "loopHeadline": "आरव stepped into city apartment",
+      "powerText": "NEXT SCENE"
+    },
+    "sceneQuality": {
+      "totalScenes": 7,
+      "tierCounts": {
+        "Tier 1 (Pexels Video)": 7
+      },
+      "kindCounts": {
+        "video": 7
+      },
+      "gradientSceneCount": 0,
+      "lowResSceneCount": 0,
+      "preferredSceneCount": 7,
+      "editorialSceneCount": 0,
+      "stockSceneCount": 7,
+      "aiSceneCount": 0,
+      "trueVideoSceneCount": 7,
+      "animatedStillSceneCount": 0,
+      "minimumWidth": 1080,
+      "minimumHeight": 1920
+    },
+    "sceneQueryCoverage": {
+      "genericPortraitSearchCount": 0,
+      "questionLeadLiteralCount": 0,
+      "namedPersonWithoutPortraitCount": 0
+    },
+    "externalQuality": {
+      "storyVisualQuality": "limited",
+      "operatorHelpNeeded": true,
+      "operatorActions": [
+        "Start the local ComfyUI stack before the next batch so story frames and avatar-quality visuals can recover.",
+        "Restore Hugging Face credits or swap to a funded FLUX-compatible provider before the next story batch."
+      ],
+      "allScenesStock": true,
+      "flags": {
+        "comfyuiUnavailable": true,
+        "hfFluxCreditsDepleted": true,
+        "pollinationsUnauthorized": false,
+        "pollinationsRedirectLoop": false,
+        "pollinationsTooSmall": false,
+        "imagenDirectDisabled": false,
+        "wanCircuitOpen": false,
+        "storyAiVideoDisabled": false,
+        "aiImageSuccessCount": 0
+      }
+    },
+    "renderProfile": {
+      "codec": "h264",
+      "crf": 16,
+      "pixelFormat": "yuv420p",
+      "audioBitrate": "192k",
+      "x264Preset": "slow"
+    },
+    "fallbacksTriggered": [
+      "Script source: injected payload object normalized through doctor repair.",
+      "Hindi story voice policy: locking this story to the calm Edge Hindi narrator unless a full fallback is required.",
+      "Hindi story voice continuity: rendered the full narration in one calm Edge pass to avoid scene-stitching breaks.",
+      "Scene 1: fal.ai budget exhausted for today, trying free providers.",
+      "Scene 1: Wan 2.1 circuit open for ~1186s.",
+      "Scene 1: All V99 motion providers exhausted, falling back to premium stills.",
+      "Scene 1: ComfyUI Local Still skipped - local ComfyUI is not running in this session",
+      "Scene 1: Forge Local Still skipped - Forge API is not running",
+      "Scene 1: Gemini Flash Image failed - [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+      "Scene 1: HF SDXL failed - HF SDXL HTTP 410: {\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}",
+      "Scene 1: HF FLUX.1-schnell failed - HF FLUX HTTP 402: {\"error\":\"You have depleted your monthly included credits. Purchase pre-paid credits to continue using",
+      "Scene 1: Pollinations Open Image failed - Pollinations Open (seedream) HTTP 500",
+      "Scene 1: Pollinations Unified API failed - Pollinations Unified (seedream) HTTP 500",
+      "Scene 2: fal.ai budget exhausted for today, trying free providers.",
+      "Scene 2: Wan 2.1 circuit open for ~1169s.",
+      "Scene 2: All V99 motion providers exhausted, falling back to premium stills.",
+      "Scene 2: Story AI motion is unstable in this session after 2 consecutive misses, but future scenes will still retry motion before falling back.",
+      "Scene 2: ComfyUI Local Still skipped - local ComfyUI is not running in this session",
+      "Scene 2: Forge Local Still skipped - Forge API is not running",
+      "Scene 2: Gemini Flash Image failed - [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+      "Scene 2: HF SDXL failed - HF SDXL HTTP 410: {\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}",
+      "Scene 2: HF FLUX.1-schnell skipped - HF FLUX HTTP 402: {\"error\":\"You have depleted your monthly included credits. Purchase pre-paid credits to continue using",
+      "Scene 2: Pollinations Open Image failed - Pollinations Open (seedream) HTTP 500",
+      "Scene 2: Pollinations Unified API failed - Pollinations Unified (seedream) HTTP 500",
+      "Scene 3: fal.ai budget exhausted for today, trying free providers.",
+      "Scene 3: Wan 2.1 circuit open for ~1154s.",
+      "Scene 3: All V99 motion providers exhausted, falling back to premium stills.",
+      "Scene 3: ComfyUI Local Still skipped - local ComfyUI is not running in this session",
+      "Scene 3: Forge Local Still skipped - Forge API is not running",
+      "Scene 3: Gemini Flash Image failed - [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+      "Scene 3: HF SDXL failed - HF SDXL HTTP 410: {\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}",
+      "Scene 3: HF FLUX.1-schnell skipped - HF FLUX HTTP 402: {\"error\":\"You have depleted your monthly included credits. Purchase pre-paid credits to continue using",
+      "Scene 3: Pollinations Open Image failed - Pollinations Open (seedream) HTTP 500",
+      "Scene 3: Pollinations Unified API failed - Pollinations Unified (seedream) HTTP 500",
+      "Scene 4: fal.ai budget exhausted for today, trying free providers.",
+      "Scene 4: Wan 2.1 circuit open for ~1150s.",
+      "Scene 4: All V99 motion providers exhausted, falling back to premium stills.",
+      "Scene 4: ComfyUI Local Still skipped - local ComfyUI is not running in this session",
+      "Scene 4: Forge Local Still skipped - Forge API is not running",
+      "Scene 4: Gemini Flash Image failed - [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+      "Scene 4: HF SDXL failed - HF SDXL HTTP 410: {\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}",
+      "Scene 4: HF FLUX.1-schnell skipped - HF FLUX HTTP 402: {\"error\":\"You have depleted your monthly included credits. Purchase pre-paid credits to continue using",
+      "Scene 4: Pollinations Open Image failed - Pollinations Open (seedream) HTTP 500",
+      "Scene 4: Pollinations Unified API failed - Pollinations Unified (seedream) HTTP 500",
+      "Scene 5: fal.ai budget exhausted for today, trying free providers.",
+      "Scene 5: Wan 2.1 circuit open for ~1146s.",
+      "Scene 5: All V99 motion providers exhausted, falling back to premium stills.",
+      "Scene 5: ComfyUI Local Still skipped - local ComfyUI is not running in this session",
+      "Scene 5: Forge Local Still skipped - Forge API is not running",
+      "Scene 5: Gemini Flash Image failed - [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+      "Scene 5: HF SDXL failed - HF SDXL HTTP 410: {\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}",
+      "Scene 5: HF FLUX.1-schnell skipped - HF FLUX HTTP 402: {\"error\":\"You have depleted your monthly included credits. Purchase pre-paid credits to continue using",
+      "Scene 5: Pollinations Open Image failed - Pollinations Open (seedream) HTTP 500",
+      "Scene 5: Pollinations Unified API failed - Pollinations Unified (seedream) HTTP 500",
+      "Scene 6: AI video skipped (CTA/outro scene, using premium stills instead).",
+      "Scene 6: ComfyUI Local Still skipped - local ComfyUI is not running in this session",
+      "Scene 6: Forge Local Still skipped - Forge API is not running",
+      "Scene 6: Gemini Flash Image failed - [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+      "Scene 6: HF SDXL failed - HF SDXL HTTP 410: {\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}",
+      "Scene 6: HF FLUX.1-schnell skipped - HF FLUX HTTP 402: {\"error\":\"You have depleted your monthly included credits. Purchase pre-paid credits to continue using",
+      "Scene 6: Pollinations Open Image failed - Pollinations Open (seedream) HTTP 500",
+      "Scene 6: Pollinations Unified API failed - Pollinations Unified (seedream) HTTP 500",
+      "Scene 7: fal.ai budget exhausted for today, trying free providers.",
+      "Scene 7: Wan 2.1 circuit open for ~1127s.",
+      "Scene 7: All V99 motion providers exhausted, falling back to premium stills.",
+      "Scene 7: ComfyUI Local Still skipped - local ComfyUI is not running in this session",
+      "Scene 7: Forge Local Still skipped - Forge API is not running",
+      "Scene 7: Gemini Flash Image failed - [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+      "Scene 7: HF SDXL failed - HF SDXL HTTP 410: {\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}",
+      "Scene 7: HF FLUX.1-schnell skipped - HF FLUX HTTP 402: {\"error\":\"You have depleted your monthly included credits. Purchase pre-paid credits to continue using",
+      "Scene 7: Pollinations Open Image failed - Pollinations Open (seedream) HTTP 500",
+      "Scene 7: Pollinations Unified API failed - Pollinations Unified (seedream) HTTP 500",
+      "Presenter avatar motion skipped (ComfyUI server is not responding).",
+      "ASR skipped: Hindi story narration avoids heavy Whisper WASM memory usage.",
+      "Caption mode: story captions use scene-timed fallback aligned to the selected caption language.",
+      "Audio policy: Real music track \"haunted-whisper-03\" from story_suspense library selected (120 BPM, 179 beats detected)."
+    ]
+  },
+  "hookPackage": {
+    "accent": "story",
+    "badge": "PART 1 OF 3",
+    "headline": "आरव stepped into city apartment",
+    "subline": "The clue that should have stayed buried.",
+    "showUntilFrame": 42,
+    "persistentBadge": "HINDI STORY",
+    "showSourceChip": false,
+    "closingCtaText": "Follow now. Part 2 reveals who is hiding the truth.",
+    "loopBadge": "PART 1",
+    "loopHeadline": "आरव stepped into city apartment",
+    "powerText": "NEXT SCENE"
+  },
+  "avatarPackage": {
+    "enabled": true,
+    "kind": "image",
+    "src": "v12-cache/avatar-story-owned-story-calm-v2-v4.jpg",
+    "source": "stable-cache",
+    "layout": "story-right",
+    "label": "STORY VOICE",
+    "sublabel": "PART 1",
+    "accent": "story",
+    "objectPosition": "50% 18%"
+  },
+  "retentionBlueprint": {
+    "patternInterrupts": [
+      {
+        "frame": 60,
+        "type": "zoom-snap",
+        "source": "gap-fill"
+      },
+      {
+        "frame": 90,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 180,
+        "type": "zoom-snap",
+        "source": "gap-fill"
+      },
+      {
+        "frame": 180,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 270,
+        "type": "zoom-snap",
+        "source": "gap-fill"
+      },
+      {
+        "frame": 270,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 360,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 370,
+        "type": "zoom-pulse",
+        "source": "gap-fill"
+      },
+      {
+        "frame": 450,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 465,
+        "type": "zoom-snap",
+        "source": "gap-fill"
+      },
+      {
+        "frame": 540,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 560,
+        "type": "zoom-pulse",
+        "source": "gap-fill"
+      },
+      {
+        "frame": 615,
+        "type": "zoom-pulse",
+        "source": "beat-sync"
+      },
+      {
+        "frame": 630,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 675,
+        "type": "zoom-pulse",
+        "source": "beat-sync"
+      },
+      {
+        "frame": 720,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 735,
+        "type": "zoom-pulse",
+        "source": "beat-sync"
+      },
+      {
+        "frame": 810,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 900,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 990,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 1080,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 1170,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 1260,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      },
+      {
+        "frame": 1350,
+        "type": "flash-cut",
+        "source": "llm-generated"
+      }
+    ],
+    "beatSyncPoints": [
+      {
+        "frame": 15,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 30,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 45,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 60,
+        "isSceneCut": false,
+        "hasInterrupt": true
+      },
+      {
+        "frame": 75,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 90,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 105,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 120,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 135,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 150,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 165,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 180,
+        "isSceneCut": false,
+        "hasInterrupt": true
+      },
+      {
+        "frame": 195,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 210,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 225,
+        "isSceneCut": true,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 240,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 255,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 270,
+        "isSceneCut": false,
+        "hasInterrupt": true
+      },
+      {
+        "frame": 285,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 300,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 315,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 330,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 345,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 360,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 375,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 390,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 405,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 420,
+        "isSceneCut": true,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 435,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 450,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 465,
+        "isSceneCut": false,
+        "hasInterrupt": true
+      },
+      {
+        "frame": 480,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 495,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 510,
+        "isSceneCut": true,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 525,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 540,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 555,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 570,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 585,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 600,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 615,
+        "isSceneCut": false,
+        "hasInterrupt": true
+      },
+      {
+        "frame": 630,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 645,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 660,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 675,
+        "isSceneCut": false,
+        "hasInterrupt": true
+      },
+      {
+        "frame": 690,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 705,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 720,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 735,
+        "isSceneCut": false,
+        "hasInterrupt": true
+      },
+      {
+        "frame": 750,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 765,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 780,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      },
+      {
+        "frame": 795,
+        "isSceneCut": false,
+        "hasInterrupt": false
+      }
+    ],
+    "generatedAt": 1780256701724,
+    "stats": {
+      "totalInterrupts": 9,
+      "gapFills": 6,
+      "cliffSaves": 0,
+      "beatSyncs": 3,
+      "totalBeatFrames": 53
+    },
+    "hookText": "NEXT SCENE",
+    "bgmPrompt": "Epic cinematic trailer music, 120 BPM",
+    "visualCues": [
+      "[Crash Zoom][city apartment dramatic entrance]",
+      "[Slow Push-In][dramatic turning point determination]",
+      "[Whip Pan][threat looming dramatic confrontation]",
+      "[Crash Zoom][object glowing face closeup hero]",
+      "[Slow Push-In][massive cinematic explosion dust]",
+      "[Whip Pan][metal door knock closeup]",
+      "[Crash Zoom][whisper in dark corridor]"
+    ]
+  },
+  "sfxPack": {
+    "hookHit": "audio/sfx-library/impact/cinematic-thud.wav",
+    "transitionWhooshes": [
+      "audio/sfx-library/whoosh/reverse-whoosh.wav",
+      "audio/sfx-library/whoosh/sharp-whoosh.wav",
+      "audio/sfx-library/whoosh/soft-swoosh.wav",
+      "audio/sfx-library/whoosh/heavy-sweep.wav",
+      "audio/sfx-library/whoosh/reverse-whoosh.wav",
+      "audio/sfx-library/whoosh/sharp-whoosh.wav",
+      "audio/sfx-library/whoosh/soft-swoosh.wav"
+    ],
+    "outro": "audio/sfx-library/musical/piano-hit.wav",
+    "emphasis": "audio/sfx-library/stinger/alert-sting.wav",
+    "riser": "audio/sfx-library/riser/suspense-swell.wav"
+  },
+  "beatFrames": [
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945,
+    960,
+    975,
+    990,
+    1005,
+    1020,
+    1035,
+    1050,
+    1065,
+    1080,
+    1095,
+    1110,
+    1125,
+    1140,
+    1155,
+    1170,
+    1185,
+    1200,
+    1215,
+    1230,
+    1245,
+    1260,
+    1275,
+    1290,
+    1305,
+    1320,
+    1335,
+    1350,
+    1365,
+    1380,
+    1395,
+    1410,
+    1425,
+    1440,
+    1455,
+    1470,
+    1485,
+    1500,
+    1515,
+    1530,
+    1545,
+    1560,
+    1575,
+    1590,
+    1605,
+    1620,
+    1635,
+    1650,
+    1665,
+    1680,
+    1695,
+    1710,
+    1725,
+    1740,
+    1755,
+    1770,
+    1785,
+    1800,
+    1815,
+    1830,
+    1845,
+    1860,
+    1875,
+    1890,
+    1905,
+    1920,
+    1935,
+    1950,
+    1965,
+    1980,
+    1995,
+    2010,
+    2025,
+    2040,
+    2055,
+    2070,
+    2085,
+    2100,
+    2115,
+    2130,
+    2145,
+    2160,
+    2175,
+    2190,
+    2205,
+    2220,
+    2235,
+    2250,
+    2265,
+    2280,
+    2295,
+    2310,
+    2325,
+    2340,
+    2355,
+    2370,
+    2385,
+    2400,
+    2415,
+    2430,
+    2445,
+    2460,
+    2475,
+    2490,
+    2505,
+    2520,
+    2535,
+    2550,
+    2565,
+    2580,
+    2595,
+    2610,
+    2625,
+    2640,
+    2655,
+    2670,
+    2685
+  ],
+  "durationInFrames": 804,
+  "enableV13Hacks": false
+}

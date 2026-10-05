@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Timeline",
+  "description": "Strict JSON schema defining the precise timing, layers, and compositing data for the Remotion headless rendering engine.",
+  "type": "object",
+  "properties": {
+    "composition": {
+      "type": "object",
+      "properties": {
+        "width": { "type": "integer", "default": 1080 },
+        "height": { "type": "integer", "default": 1920 },
+        "fps": { "type": "integer", "default": 30 },
+        "durationInFrames": { "type": "integer" }
+      },
+      "required": ["width", "height", "fps", "durationInFrames"]
+    },
+    "audioSources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "filepath": { "type": "string" },
+          "startFromFrame": { "type": "integer", "description": "Frame to start playing the audio from within the source file" },
+          "durationInFrames": { "type": "integer" },
+          "volume": { "type": "number", "default": 1.0 }
+        },
+        "required": ["id", "filepath", "startFromFrame", "durationInFrames"]
+      }
+    },
+    "clips": {
+      "type": "array",
+      "description": "The sequential or layered video cuts.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "filepath": { "type": "string" },
+          "timelineStartFrame": { "type": "integer" },
+          "durationInFrames": { "type": "integer" },
+          "srcStartFrame": { "type": "integer" },
+          "scale": { "type": "string", "enum": ["fill", "fit", "stretch"], "default": "fill" },
+          "filters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": { "type": "string", "enum": ["grayscale", "brightness", "blur", "datamosh_jitter"] },
+                "value": { "type": "number" }
+              },
+              "required": ["type"]
+            }
+          }
+        },
+        "required": ["id", "filepath", "timelineStartFrame", "durationInFrames", "srcStartFrame"]
+      }
+    },
+    "captions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": { "type": "string" },
+          "startFrame": { "type": "integer" },
+          "durationInFrames": { "type": "integer" },
+          "style": {
+            "type": "object",
+            "properties": {
+              "fontSize": { "type": "integer" },
+              "color": { "type": "string" },
+              "fontFamily": { "type": "string" }
+            }
+          }
+        },
+        "required": ["text", "startFrame", "durationInFrames"]
+      }
+    }
+  },
+  "required": ["composition", "clips"]
+}

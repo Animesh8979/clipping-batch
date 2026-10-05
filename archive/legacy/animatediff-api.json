@@ -1,0 +1,123 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": { "title": "Load SD1.5 Checkpoint (content-routed by comfyui-bridge)" },
+    "inputs": {
+      "ckpt_name": "toonyou_beta6.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "ADE_AnimateDiffLoaderGen1",
+    "_meta": { "title": "AnimateDiff Lightning Loader (4-step distilled)" },
+    "inputs": {
+      "model": ["1", 0],
+      "model_name": "animatediff_lightning_4step_comfyui.safetensors",
+      "beta_schedule": "sqrt_linear (AnimateDiff)"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "_meta": { "title": "Positive Prompt" },
+    "inputs": {
+      "text": "anime illustration style, vibrant cartoon animation, expressive character, clean line art, dynamic composition",
+      "clip": ["1", 1]
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "_meta": { "title": "Negative Prompt" },
+    "inputs": {
+      "text": "text, watermark, logo, caption, blurry, low quality, deformed, bad anatomy, extra limbs, extra fingers, cross-eyed, disfigured hands, mutilated, out of frame, mutation, photorealistic skin, 3d render",
+      "clip": ["1", 1]
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "_meta": { "title": "Empty Latent (txt2vid, 9:16 vertical, 16 frames)" },
+    "inputs": {
+      "width": 384,
+      "height": 512,
+      "batch_size": 16
+    }
+  },
+  "9": {
+    "class_type": "VHS_LoadImagePath",
+    "_meta": { "title": "Load Source Still (img2vid anchor)" },
+    "inputs": {
+      "image": "placeholder.png",
+      "custom_width": 384,
+      "custom_height": 512
+    }
+  },
+  "10": {
+    "class_type": "ImageScale",
+    "_meta": { "title": "Scale source to generation res" },
+    "inputs": {
+      "image": ["9", 0],
+      "upscale_method": "lanczos",
+      "width": 384,
+      "height": 512,
+      "crop": "center"
+    }
+  },
+  "11": {
+    "class_type": "VAEEncode",
+    "_meta": { "title": "Encode source still to latent" },
+    "inputs": {
+      "pixels": ["10", 0],
+      "vae": ["1", 2]
+    }
+  },
+  "12": {
+    "class_type": "RepeatLatentBatch",
+    "_meta": { "title": "Repeat source latent x16 frames (img2vid anchor)" },
+    "inputs": {
+      "samples": ["11", 0],
+      "amount": 16
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "_meta": { "title": "KSampler — AnimateDiff Lightning 4-step (CFG 1.5, Euler, sgm_uniform)" },
+    "inputs": {
+      "seed": 0,
+      "steps": 4,
+      "cfg": 1.5,
+      "sampler_name": "euler",
+      "scheduler": "sgm_uniform",
+      "denoise": 0.85,
+      "model": ["2", 0],
+      "positive": ["3", 0],
+      "negative": ["4", 0],
+      "latent_image": ["12", 0]
+    }
+  },
+  "7": {
+    "class_type": "VAEDecodeTiled",
+    "_meta": { "title": "VAE Decode Tiled (prevents OOM on 4GB VRAM)" },
+    "inputs": {
+      "samples": ["6", 0],
+      "vae": ["1", 2],
+      "tile_size": 256,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "8": {
+    "class_type": "VHS_VideoCombine",
+    "_meta": { "title": "Video Combine (VideoHelperSuite)" },
+    "inputs": {
+      "images": ["7", 0],
+      "frame_rate": 16,
+      "loop_count": 0,
+      "filename_prefix": "ragnar_motion",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 17,
+      "save_metadata": false,
+      "pingpong": false,
+      "save_output": true
+    }
+  }
+}

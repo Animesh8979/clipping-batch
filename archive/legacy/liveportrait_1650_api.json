@@ -1,0 +1,163 @@
+{
+  "1": {
+    "inputs": {
+      "precision": "auto",
+      "mode": "human"
+    },
+    "class_type": "DownloadAndLoadLivePortraitModels",
+    "_meta": {
+      "title": "(Down)Load LivePortraitModels"
+    }
+  },
+  "2": {
+    "inputs": {
+      "onnx_device": "CPU",
+      "keep_model_loaded": true,
+      "detection_threshold": 0.5
+    },
+    "class_type": "LivePortraitLoadCropper",
+    "_meta": {
+      "title": "LivePortrait Load InsightFaceCropper"
+    }
+  },
+  "3": {
+    "inputs": {
+      "image": "D:\\LivePortrait\\assets\\examples\\source\\s0.jpg",
+      "custom_width": 0,
+      "custom_height": 0
+    },
+    "class_type": "VHS_LoadImagePath",
+    "_meta": {
+      "title": "Load Source Portrait"
+    }
+  },
+  "4": {
+    "inputs": {
+      "video": "D:\\LivePortrait\\assets\\examples\\driving\\d18.mp4",
+      "force_rate": 12,
+      "custom_width": 0,
+      "custom_height": 0,
+      "frame_load_cap": 24,
+      "skip_first_frames": 0,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadVideoPath",
+    "_meta": {
+      "title": "Load Driving Video"
+    }
+  },
+  "5": {
+    "inputs": {
+      "pipeline": [
+        "1",
+        0
+      ],
+      "cropper": [
+        "2",
+        0
+      ],
+      "source_image": [
+        "3",
+        0
+      ],
+      "dsize": 512,
+      "scale": 2.3,
+      "vx_ratio": 0,
+      "vy_ratio": -0.125,
+      "face_index": 0,
+      "face_index_order": "large-small",
+      "rotate": true
+    },
+    "class_type": "LivePortraitCropper",
+    "_meta": {
+      "title": "Crop Source Face"
+    }
+  },
+  "6": {
+    "inputs": {
+      "pipeline": [
+        "1",
+        0
+      ],
+      "crop_info": [
+        "5",
+        1
+      ],
+      "source_image": [
+        "3",
+        0
+      ],
+      "driving_images": [
+        "4",
+        0
+      ],
+      "lip_zero": false,
+      "lip_zero_threshold": 0.03,
+      "stitching": true,
+      "delta_multiplier": 1,
+      "mismatch_method": "constant",
+      "relative_motion_mode": "relative",
+      "driving_smooth_observation_variance": 0.000003,
+      "expression_friendly": true,
+      "expression_friendly_multiplier": 1
+    },
+    "class_type": "LivePortraitProcess",
+    "_meta": {
+      "title": "Animate Portrait"
+    }
+  },
+  "7": {
+    "inputs": {
+      "source_image": [
+        "3",
+        0
+      ],
+      "cropped_image": [
+        "6",
+        0
+      ],
+      "liveportrait_out": [
+        "6",
+        1
+      ]
+    },
+    "class_type": "LivePortraitComposite",
+    "_meta": {
+      "title": "Composite Full Frames"
+    }
+  },
+  "8": {
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "liveportrait/demo_frames"
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Frames"
+    }
+  },
+  "9": {
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "frame_rate": 12,
+      "loop_count": 0,
+      "filename_prefix": "liveportrait/demo_video",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 20,
+      "save_metadata": true,
+      "pingpong": false,
+      "save_output": true
+    },
+    "class_type": "VHS_VideoCombine",
+    "_meta": {
+      "title": "Save Video"
+    }
+  }
+}
